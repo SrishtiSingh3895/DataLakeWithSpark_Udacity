@@ -106,6 +106,3 @@ This file can be executed using the "python3 etl.py" command on the workspace or
 
 - README.md
 This file contains the description about the project, database, databse schema and the ETL pipeline.
-
-- data/
-This folder contains sample data, which was used to test the code.
