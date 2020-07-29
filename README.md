@@ -1,3 +1,7 @@
+# Data Lake using Spark and Amazon S3
+
+This project was completed as a part of Udacity's Data Engineering Nanodegree program.
+
 # Project Description
 
 This project aims to create a database (**Sparkify**) and building an ETL pipeline to create this database from the data that has been collected. Since the user base and song database is very large, data lake was built to store and process the data. The raw data resided in an Amazon S3 bucket, in a directory of JSON logs of user activity on the app, as well as a directory with JSON metadata of the songs. The main goal of this database is to enable the analysis of this data to get information about user preferences and to build a recommendation system. This was enabled by building a databse designed as a star schema with songplay table as the fact table which contains all the log data and having several dimension tables which store details of users, songs, artists and time the songs were played. The data is extracted from S3, loaded onto the EMR cluster or another S3 bucket and then transformed into a set of facts and dimensiona tables using Spark for their analytics team to continue finding insights in what songs the users are listening to.
